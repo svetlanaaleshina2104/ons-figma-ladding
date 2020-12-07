@@ -11,7 +11,7 @@
     justify-content: space-between;
     max-width: 520px;
     width: 100%;
-    font-family: 'OSReg';
+    font-family: var(--f-reg);
     font-size: 16px;
     line-height: 20px;
 }
@@ -20,11 +20,11 @@
     font-size: 16px;
     line-height: 20px;
     text-decoration: none;
-    color: #001A34;
+    color: var(--c-midnight);
 }
 
 .header__tagline {
     font-size: 22px;
     line-height: 26px;
-    font-family: 'OSBold';
+    font-family: var(--f-bold);
 }

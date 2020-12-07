@@ -1,6 +1,9 @@
 @import './normalize.css';
 @import './font.css';
+@import './variables.css';
+@import './common.css';
 @import './header.css';
+@import './hero.css';
 
 .mainWrapper {
     width: 100%;
@@ -8,8 +11,9 @@
     margin: 0 auto;
     display: grid;
     grid-template-areas: 
-    '. header .';
+    '. header .'
+    '. heroMain .';
     grid-template-columns: 92px 1fr 92px;
-    font-family: 'OSReg';
-    color: #001A34;
+    font-family: var(--f-reg);
+    color: var(--c-midnight);
 }
