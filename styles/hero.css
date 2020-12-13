@@ -3,13 +3,19 @@
     align-items: center;
     padding: 0 120px;
     min-height: 708px;
-    background: center center repeat;
+    background: center center no-repeat;
     background-size: cover; /*растянуть по ширине и высоте картинку, заполнив весь блок*/
 }
 
 .hero--main {
     grid-area: heroMain;
-    background-image: url(/img/hero-main-image.jpg);
+    background-image: url(../img/hero-main-image.jpg);
+}
+
+.hero--second {
+    grid-area: heroSecond;
+    justify-content: flex-end;
+    background-image: url(../img/hero-second-image.jpg);
 }
 
 .hero__info {
@@ -24,7 +30,7 @@
 .hero__infoTitle {
     margin: 0 0 16px;
     font-family: var(--f-bold);
-    font-style: 58px;
+    font-size: 58px;
     line-height: 68px;
 
 }
