@@ -5,6 +5,7 @@
 @import './header.css';
 @import './hero.css';
 @import './courses.css';
+@import './advant.css';
 
 .mainWrapper {
     width: 100%;
@@ -15,7 +16,8 @@
     '. header .'
     '. heroMain .'
     '. courses .'
-    '. heroSecond .';
+    '. heroSecond .'
+    '. advant .';
     grid-template-columns: 92px 1fr 92px;
     font-family: var(--f-reg);
     color: var(--c-midnight);
