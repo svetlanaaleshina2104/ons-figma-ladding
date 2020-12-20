@@ -6,6 +6,10 @@
 @import './hero.css';
 @import './courses.css';
 @import './advant.css';
+@import './request.css';
+@import './footer.css';
+
+
 
 .mainWrapper {
     width: 100%;
@@ -17,7 +21,9 @@
     '. heroMain .'
     '. courses .'
     '. heroSecond .'
-    '. advant .';
+    '. advant .'
+    'request request request'
+    '. footer .';
     grid-template-columns: 92px 1fr 92px;
     font-family: var(--f-reg);
     color: var(--c-midnight);
