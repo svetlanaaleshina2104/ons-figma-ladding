@@ -1,0 +1,41 @@
+.footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 220px;
+    width: 100%;
+    
+}
+
+.footer__mainLogo {
+    width: 181px;
+    height: 58px;
+}
+
+.footer__text {
+    /*width: 432px;*/
+    line-height: 20px;
+    font-size: 16px;
+    height: 60px;
+    
+}
+
+/*.footer__navigation {
+    display: flex;
+    justify-content: space-between;
+    max-width: 520px;
+    width: 181px;
+    
+}*/
+
+.footer__navigationLink {
+    height: 37.45px;
+    width: 181px;
+}
+
+.footer__footerLogo {
+    width: 107px;
+    height: 23px;
+}
+
